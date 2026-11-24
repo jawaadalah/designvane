@@ -1,0 +1,17 @@
+{
+  "name": "designvane-design",
+  "version": "0.1.0",
+  "description": "Plan and specify screens before any code exists: generation briefs, prompt polish, tokens, DESIGN.md authoring, critique, and responsive layout rules.",
+  "author": {
+    "name": "Kontenlaris Studio"
+  },
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/generate-screen",
+    "./skills/prompt-polish",
+    "./skills/design-tokens",
+    "./skills/design-md-author",
+    "./skills/design-critique",
+    "./skills/responsive-layout"
+  ]
+}
