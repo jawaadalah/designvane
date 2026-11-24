@@ -1,0 +1,22 @@
+{
+  "name": "designvane",
+  "version": "0.1.0",
+  "description": "Vendor-neutral design-to-code Agent Skills: 18 skills in 3 plugins. No vendor account, no hosted MCP server, no API key.",
+  "plugins": [
+    {
+      "name": "designvane-design",
+      "source": "./plugins/designvane-design",
+      "description": "Plan and specify screens before any code exists: generation briefs, prompt polish, tokens, DESIGN.md authoring, critique, and responsive layout rules."
+    },
+    {
+      "name": "designvane-build",
+      "source": "./plugins/designvane-build",
+      "description": "Turn a settled design into production UI code: React, Vue, HTML/Tailwind, React Native, dashboards, and form patterns."
+    },
+    {
+      "name": "designvane-utilities",
+      "source": "./plugins/designvane-utilities",
+      "description": "Extract, export, and harden designs: DESIGN.md extraction, static HTML export, accessibility audits, dark mode, icon systems, and motion."
+    }
+  ]
+}
