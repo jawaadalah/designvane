@@ -1,0 +1,17 @@
+{
+  "name": "designvane-utilities",
+  "version": "0.1.0",
+  "description": "Extract, export, and harden designs: DESIGN.md extraction, static HTML export, accessibility audits, dark mode, icon systems, and motion.",
+  "author": {
+    "name": "Kontenlaris Studio"
+  },
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/design-md-extract",
+    "./skills/html-export",
+    "./skills/accessibility-audit",
+    "./skills/dark-mode",
+    "./skills/icon-system",
+    "./skills/motion-design"
+  ]
+}
