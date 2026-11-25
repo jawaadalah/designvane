@@ -1,0 +1,14 @@
+/* Gold standard — dark token mapping excerpt */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #131110;          /* near-black, warm to match brand */
+    --surface-raised: #1D1A17;   /* elevation = lighter, not shadowed */
+    --surface-overlay: #26221E;
+    --ink: #F5F0EA;              /* off-white, never pure #FFF */
+    --ink-muted: #A8A099;        /* re-measured: 7.1:1 on --surface */
+    --accent: #F0834C;           /* primary-500: lightened one step for dark */
+    --border: #2E2A26;           /* borders carry structure in the dark */
+  }
+}
+/* Brand logo sits on a light chip in dark mode:
+   .logo-chip { background: #F5F0EA; border-radius: 8px; padding: 4px 8px; } */
