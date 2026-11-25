@@ -1,0 +1,16 @@
+/* Gold standard — motion tokens + pattern excerpt */
+:root {
+  --motion-micro: 120ms;    /* feedback: press, toggle, hover */
+  --motion-standard: 200ms; /* sheets, menus, tab content */
+  --motion-emphasis: 320ms; /* page transitions, shared elements */
+  --ease-enter: cubic-bezier(0.2, 0.8, 0.2, 1);  /* decelerate */
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);        /* accelerate */
+  --ease-standard: cubic-bezier(0.3, 0.7, 0.2, 1);
+}
+/* Pattern: bottom sheet — job: spatial (rises from its trigger edge)
+   enter: translateY(100%) -> 0, --motion-standard, --ease-enter
+   exit:  reverse at --motion-micro with --ease-exit (leaving is faster) */
+@media (prefers-reduced-motion: reduce) {
+  :root { --motion-micro: 0ms; --motion-standard: 80ms; --motion-emphasis: 80ms; }
+  /* sheets crossfade instead of sliding; parallax and stagger disabled */
+}
