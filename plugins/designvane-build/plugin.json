@@ -1,0 +1,17 @@
+{
+  "name": "designvane-build",
+  "version": "0.1.0",
+  "description": "Turn a settled design into production UI code: React, Vue, HTML/Tailwind, React Native, dashboards, and form patterns.",
+  "author": {
+    "name": "Kontenlaris Studio"
+  },
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/react-components",
+    "./skills/vue-components",
+    "./skills/html-tailwind",
+    "./skills/react-native-ui",
+    "./skills/dashboard-charts",
+    "./skills/form-patterns"
+  ]
+}
